@@ -1,0 +1,80 @@
+# =========================
+# Recommended .gitignore
+# AI Prompt Library (static site + optional tooling)
+# =========================
+
+# OS files
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+*.log
+logs/
+*.log.*
+
+# node (if you ever add tooling)
+node_modules/
+
+# Environment files / secrets
+.env
+.env.*.local
+.env.local
+.secrets.env
+*.key
+*.pem
+credentials.json
+serviceAccount*.json
+service-account*.json
+firebase-service-account.json
+# firebase debug logs
+firebase-debug.log
+
+# Firebase local emulator / cache
+.firebase/
+firebase/hosting.cache/
+
+# Build output / static site generators / frameworks
+dist/
+build/
+out/
+public/
+.cache/
+.next/
+.vercel/
+.netlify/
+.svelte-kit/
+.hugo_public/
+
+# Editor / IDE
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Mac resource forks, Thumbs, etc (again to be safe)
+Icon?
+._*
+
+# Testing / coverage
+coverage/
+jest-cache/
+
+# Misc
+*.tgz
+*.zip
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# Ignore credential stores (if present)
+*.gpg
+*.asc
+
+# End of recommended .gitignore
